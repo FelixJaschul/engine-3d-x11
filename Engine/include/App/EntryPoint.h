@@ -1,0 +1,10 @@
+#pragma once
+
+#include <App/App.h>
+
+int main()
+{
+    const auto app = Engine::CreateApp();
+    app->Run();
+    delete app;
+}
