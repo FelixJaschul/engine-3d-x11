@@ -1,0 +1,16 @@
+# CMake build artifacts
+cmake-build-*/
+build/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
