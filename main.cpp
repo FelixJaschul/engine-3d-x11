@@ -61,7 +61,7 @@ namespace Game
             if (Engine::Input::IsKeyDown(Engine::Input::Key::LeftShift)) GetCamera()->MoveUp(moveSpeed);
 
             // Toggle features
-            if (Engine::Input::IsKeyPressed(Engine::Input::Key::L))Engine::Rendering::SetEnableLighting(!Engine::Rendering::GetEnableLighting());
+            if (Engine::Input::IsKeyPressed(Engine::Input::Key::L)) Engine::Rendering::SetEnableLighting(!Engine::Rendering::GetEnableLighting());
             if (Engine::Input::IsKeyPressed(Engine::Input::Key::F)) Engine::Rendering::SetEnableFog(!Engine::Rendering::GetEnableFog());
 
             // Save level

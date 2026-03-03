@@ -4,8 +4,6 @@ all: build run
 clean:
 	clear
 	rm -rf cmake-build-debug
-	rm -rf .idea
-	rm -rf .DS_store 
 
 build: 
 	cmake -S . -B cmake-build-debug -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES=arm64
