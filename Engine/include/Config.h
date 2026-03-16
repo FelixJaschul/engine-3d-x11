@@ -4,17 +4,17 @@ namespace Engine
 {
     namespace Window
     {
-        inline const char* appWindowTitle = "X11";
+        inline char* appWindowTitle = "X11 _f";
         inline int appDefaultWindowX = 1200;
         inline int appDefaultWindowY = 800;
         inline int appDesiredFPS = 60;
 
-        inline const char* GetWindowTitle() { return appWindowTitle; }
+        inline char* GetWindowTitle() { return appWindowTitle; }
         inline int GetDefaultWindowX() { return appDefaultWindowX; }
         inline int GetDefaultWindowY() { return appDefaultWindowY; }
         inline int GetDesiredFPS() { return appDesiredFPS; }
 
-        inline void SetWindowTitle(const char* title) { appWindowTitle = title; }
+        inline void SetWindowTitle(char* title) { appWindowTitle = title; }
         inline void SetDefaultWindowX(int width) { appDefaultWindowX = width; }
         inline void SetDefaultWindowY(int height) { appDefaultWindowY = height; }
         inline void SetDesiredFPS(int fps) { appDesiredFPS = fps; }

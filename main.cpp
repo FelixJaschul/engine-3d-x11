@@ -8,7 +8,7 @@ namespace Game
         App()
         {
             // Configure window defaults
-            Engine::Window::SetWindowTitle("ENGINE"); Engine::Window::SetDefaultWindowX(1200);
+            Engine::Window::SetWindowTitle("ENGINE _f"); Engine::Window::SetDefaultWindowX(1200);
             Engine::Window::SetDefaultWindowY(800); Engine::Window::SetDesiredFPS(144);
 
             // Configure camera
